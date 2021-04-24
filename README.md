@@ -1,2 +1,2 @@
 # HostelManagement
- A website to allot rooms
+ A website to  Manage allotement of rooms
