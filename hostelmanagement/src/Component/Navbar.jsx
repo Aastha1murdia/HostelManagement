@@ -6,9 +6,12 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-mainbg">
-                <NavLink className="navbar-brand navbar-logo" to="/" exact>
+                <NavLink className="navbar-brand navbar-logo title_name" to="/" exact>
                     Hostel Management System
+                    {/* <i class="fab fa-angellist"></i> */}
+                    
                 </NavLink>
+                <i class="fas fa-cannabis"></i>
                 <button
                     className="navbar-toggler"
                     type="button"

@@ -11,14 +11,24 @@ body{
 i{
     margin-right:10px;
 }
+.fa-cannabis{
+    font-size:51px;
+    background-color:#494643;
+    color: tomato;
+    margin-top:-8px;
+    margin-left:-22px;
+}
 .navbar-logo{
     padding:15px;
     color:#fff;
     pointer-events:none;
 }
+.title_name{
+    margin-top:-3px;
+}
 .navbar-mainbg{
     background-color:#494643;
-    padding:0px;
+    padding:9px;
 }
 .navbar-toggler{
     color:white;
