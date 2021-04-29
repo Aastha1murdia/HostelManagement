@@ -1,0 +1,26 @@
+.photo{
+    display:flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+}
+h6{
+    text-align:center;
+    background-color: #5b929b;
+    margin-top:20px;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width:730px){
+    .photo{
+        
+    }
+}
+
+@media (max-width:500px){
+    .photo{
+        display:flex;
+        flex-direction: column;    
+    }
+}

@@ -7,7 +7,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-mainbg">
                 <NavLink className="navbar-brand navbar-logo" to="/" exact>
-                    <img src="" alt="logo" width="80px" height="80px"></img>
+                    Hostel Management System
                 </NavLink>
                 <button
                     className="navbar-toggler"
@@ -21,10 +21,6 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                        {/* <div className="hori-selector">
-                            <div className="left"></div>
-                            <div className="right"></div>
-                        </div> */}
                         <li className="nav-item active">
                             <NavLink className="nav-link" to="/" exact>
                                 Home
@@ -36,8 +32,8 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li className="nav-item active">
-                            <NavLink className="nav-link" to="/Registration" exact>
-                                Registration
+                            <NavLink className="nav-link" to="/MyGallery" exact>
+                                Gallery
                             </NavLink>
                         </li>
                         <li className="nav-item active">
@@ -46,13 +42,14 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li className="nav-item active">
-                            <NavLink className="nav-link" to="/LoginIn" exact>
-                                    Login In
+                            <NavLink className="nav-link" to="/Login" exact>
+                                    Log In
                             </NavLink>
                         </li>
                     </ul>
                 </div>
             </nav>
+            
             
         </>
     )

@@ -1,0 +1,36 @@
+.card{
+    width:350px;
+    height:400px;
+    border-radius:20px;
+    background-color:#ebe2e2;
+    color:black;
+    float:left;
+    margin:40px 0px  0px 70px ;
+}
+h5{
+    text-align:center;
+    background-color:rgb(1, 137, 155);
+    margin-top:20px;
+}
+.card:hover{
+    box-shadow:0px 30px 18px -8px rgba(0,0,0,0.1);
+    transition:scale(1.05,1.05);
+}
+.features{
+    padding: 15px;
+}
+span{
+    font-weight:620;
+}
+@media (max-width:730px){
+
+    .card{
+        margin-left:140px;
+    }
+}
+@media (max-width:500px){
+
+    .card{
+        margin-left:60px;
+    }
+}

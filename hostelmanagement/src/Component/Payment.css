@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&family=Baloo+Chettan+2&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.payment_container{
+    display:flex;
+    flex-direction: column;
+    width:350px;
+    height: 420px;
+    background-color:white;
+    justify-content: center;
+    margin: auto;
+    margin-top:100px;
+    border-radius: 10px;
+    padding:35px;
+}
+.details{
+    display: flex;
+    width:300px;
+    height:100px;
+}
+.card_details input[type="text"]{
+    width:300px;
+    height:35px;
+    background-color:#ebe6e6;
+    border-radius: 10px;   
+    border:none;
+    outline:none;
+    text-align:center;
+}
+.date_cvc input[type="text"]{
+    width:120px;
+    height:35px;
+    background-color:#ebe6e6;
+    border-radius: 10px;   
+    border:none;
+    text-align:center;
+    margin-top: 17px;
+}
+.date_cvc input[type="password"]{
+    width:95px;
+    height:35px;
+    background-color:#ebe6e6;
+    border-radius: 10px;   
+    border:none;
+    text-align:center;
+   
+}
+.date_cvc select{
+    background-color:#ebe6e6;
+    border-radius: 10px;   
+    border:none;
+    text-align:center;
+    margin-top: 17px;
+    margin-left:20px;
+    color:#555555;
+    outline: none;
+    width:57px;
+}
+.date_cvc label{
+    padding-top: 10px;
+}
+.far{
+    font-size:20px;
+    color:#555555;
+}
+/* #cvc{
+    margin-left:80px;
+    width:100px;
+    margin-top:-30px;
+    height:35px;
+} */
+.fa-lock{
+    margin-left:0px;
+}
+.icon-relative{
+    position:relative;
+}
+.icon-relative .fas{
+    position:absolute;
+    bottom:7px;
+    left:15px;
+    font-size:20px;
+    color:#555555;
+}
+
+.payment_container label{
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.payment_head{
+    text-align: center;
+    font-size:20px;
+    margin-top:15px;
+    background-color:rgb(18, 51, 112); 
+    color:white;
+}
+#pay{
+    width:100px;
+    height:30px;
+    border:none;
+    background-color:rgb(18, 51, 112); 
+    outline: none;
+    color:white;
+    text-align:center;
+    margin-left:100px;
+    margin-top:10px;
+    border-radius: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pay:hover{
+    background-color:rgb(3, 21, 54);  ;
+}
+.card_arrange{
+    display:flex;
+}
+.card_img{
+    margin-top:50px;
+    margin-left: 12px;
+}

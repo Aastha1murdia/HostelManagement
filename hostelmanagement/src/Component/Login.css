@@ -1,0 +1,41 @@
+input[type="email"],[type="password"]{
+    width:340px;
+    border-radius:2px;
+    background-color:#ebe6e6;
+    height:30px;
+    display:block;
+    padding:12px 20px;
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login{
+    border-radius:5px;
+    background-color:white;
+    width:400px;
+    padding:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:130px;
+}
+.submit{
+    margin-left:120px;
+    margin-top:30px;
+    background-color: rgb(241, 121, 9);
+    border-radius:15px;
+    border:none;
+    width:100px;
+    color:White;
+}
+.userlbl,.pswdlbl{
+    margin-top:10px;
+}
+.submit:hover{
+    transition:0.4s ease-in-out;
+    background-color:rgb(170, 81, 4) 
+}
+input[type="email"],[type="password"]:focus{
+    outline:none;
+}
+

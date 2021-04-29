@@ -5,8 +5,12 @@ import {BrowserRouter as Router,Switch,Redirect,Route} from 'react-router-dom';
 import Home from './Component/Home';
 import About from './Component/About';
 import Contact from './Component/Contact';
+import MyGallery from './Component/MyGallery';
+import Login from './Component/Login';
 import Registration from './Component/Registration';
-import LoginIn from './Component/LoginIn';
+import Payment from './Component/Payment';
+
+
 function App() {
   return (
    <>
@@ -20,14 +24,20 @@ function App() {
           <Route path='/About' exact>
             <About/>
           </Route>
-          <Route path='/Registration' exact>
-            <Registration/>
+          <Route path='/MyGallery' exact>
+            <MyGallery/>
           </Route>
           <Route path='/Contact' exact>
             <Contact/>
           </Route>
-          <Route path='/LoginIn' exact>
-            <LoginIn/>
+          <Route path='/Login' exact>
+            <Login/>
+          </Route>
+          <Route path='/Registration' exact>
+            <Registration/>
+          </Route>
+          <Route path='/Payment' exact>
+            <Payment/>
           </Route>
           <Redirect to="/"/>
         </Switch>
